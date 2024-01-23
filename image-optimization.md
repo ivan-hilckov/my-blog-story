@@ -38,6 +38,11 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 
 *AVIF* - Ты что за зверь, пошел гуглить...
 
+изащиренные виды
+
+*HEIF/HEIC*
+*JPEG XL*
+
 ### Зачем и как их можно оптимизировать?
 
 ### Как это выглядит в самом простом варианте?
@@ -55,3 +60,4 @@ https://netflixtechblog.com/avif-for-next-generation-image-coding-b1d75675fe4
 https://news.ycombinator.com/item?id=37063626
 https://www.reddit.com/r/AV1/
 https://www.reddit.com/r/AV1/comments/jp9w41/why_webdevelopers_should_use_avif_comparison/
+https://caniuse.com/avif
