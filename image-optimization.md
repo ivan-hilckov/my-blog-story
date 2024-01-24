@@ -104,13 +104,25 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 <div style="background-image: image-set("path/to/image.ext" 1x, "path/to/image-2x.ext" 2x)">
 ```
 
+Также скорее всего Вася умен и для сервисных картинок (иконки, логотип - что то простое) использует SVG.
+Для уменьшения размера юзает SvgOmg https://jakearchibald.github.io/svgomg/
+
+На что то больше Васи не хватит 🤷‍♂️. Да собственно и не надо.
+
 ### Как это выглядит в крупном медийном проекте?
 
 ### Мы что то упускаем, что там на счет доставки, вроде термин такой есть CDN?
 
 ### Получаеться что изображения это не только про фронт но и про бек?
 
+### Финалочка, резюмеруем все вышеописанное
+
 ### Ссылки на статьи и видео используемые при написании статьи
+
+- https://dev.to/ingosteinke/responsive-background-images-with-image-set-the-srcset-for-background-image-259a
+- https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/
+- https://drafts.csswg.org/css-images-4/#image-set-notation
+- https://caniuse.com/?search=image-set
 
 - https://www.youtube.com/watch?v=9E3Vp-LXfag&ab_channel=ChromeforDevelopers
 - https://netflixtechblog.com/avif-for-next-generation-image-coding-b1d75675fe4
