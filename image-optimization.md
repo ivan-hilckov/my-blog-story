@@ -131,9 +131,17 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 
 По коду все ровно так же как и в студи. Сверху на это ложиться понятие https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading 
 
-Из за того что Васин проект высоко нагружен и разнобразие устройств силно шире чем в студи, Вася умеет подрулить разные картинки для разных устройств.
+Из за того что Васин проект высоко нагружен и разнобразие устройств силно шире чем в студи, Вася умеет подрулить разные картинки для разных устройств забирая их из сервиса и понимает как обработать ошибку и показать заглушку если картинка не загрузиалась.
 
 ### Получаеться что изображения это не только про фронт но и про бек?
+
+На больши проектах как уже упоминал выще для хранения и обработки используют отдельные сервисы. Быстрые поиск гуглом, выдет несколько либ:
+
+- https://github.com/lovell/sharp
+- https://github.com/guyonroche/imagejs
+- https://github.com/jimp-dev/jimp
+- https://github.com/phuctm97/img-nodejs
+- https://github.com/asilvas/node-image-steam?tab=readme-ov-file
 
 ### Мы что то упускаем, что там на счет доставки, вроде термин такой есть CDN?
 
@@ -156,7 +164,6 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 - https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/
 - https://drafts.csswg.org/css-images-4/#image-set-notation
 - https://caniuse.com/?search=image-set
-
 
 #### avif
 
