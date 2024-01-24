@@ -131,9 +131,11 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 
 По коду все ровно так же как и в студи. Сверху на это ложиться понятие https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading 
 
-### Мы что то упускаем, что там на счет доставки, вроде термин такой есть CDN?
+Из за того что Васин проект высоко нагружен и разнобразие устройств силно шире чем в студи, Вася умеет подрулить разные картинки для разных устройств.
 
 ### Получаеться что изображения это не только про фронт но и про бек?
+
+### Мы что то упускаем, что там на счет доставки, вроде термин такой есть CDN?
 
 ### Финалочка, резюмеруем все вышеописанное
 
@@ -141,6 +143,8 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 
 #### lazyloading
 
+- https://nextjs.org/docs/pages/building-your-application/optimizing/images
+- https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading
 - https://web.dev/articles/browser-level-image-lazy-loading
 - https://web.dev/articles/lazy-loading-images
 - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
