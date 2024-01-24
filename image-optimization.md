@@ -83,29 +83,25 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 На сайте Вася подключает картинки следующим образом.
 
 ```html
-
 <img src="path/to/image.ext" alt="image" />
 
 <!-- or ->
 
 <div style="background-image: url('path/to/image.ext')">
-
 ```
 
 Лендосы бывают разные, и часто они должны отображаться на маленьких экранах. Если у студии есть заказчики с потребностями в мобилку или скажем ретину. 
 То Васе будет чуть больше работы. Изображения нужно подговить в разных вариантах и все прогнать через компрессор.
 
-В коде Вася скорее всего будет использовать `srcset` https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset. Для изображений вставляемых через css, множественный бекграунд https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds, возможно https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/ image-set. И через медиа квери подруливать отображение этих картинок
+В коде Вася скорее всего будет использовать `srcset` https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset. Для изображений вставляемых через css, множественный бекграунд https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds, возможно https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/ image-set. Через медиа квери Вася подруливать отображение этих картинок для нужных размеров экрана.
 
 ```html
-
-<img src="path/to/image.ext" srcset="small-landscape-750x536.jpg 750w, large-landscape-2048x1536.jpg 20480w" alt="image" />
+<img src="path/to/image.ext" srcset="path/to/image-750x536.jpg 750w, path/to/image-2048x1536.jpg 20480w" alt="image" />
 
 <!-- or ->
 
 <div style="background-image: url('path/to/image.ext'), url('path/to/fallback.ext')">
-<div style="background-image: image-set("platypus.png" 1x, "platypus-2x.png" 2x)">
-
+<div style="background-image: image-set("path/to/image.ext" 1x, "path/to/image-2x.ext" 2x)">
 ```
 
 ### Как это выглядит в крупном медийном проекте?
