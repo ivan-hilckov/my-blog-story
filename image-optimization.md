@@ -25,7 +25,7 @@ https://miro.com/app/board/uXjVN8bnvyw=/?share_link_id=255145644498 - борда
 К растру у нас относяться: gif, jpg, png, webp, avif
 К вектору: svg
 
-![Alt text](relative%20image-history.png?raw=true "Title")
+![Alt text](image-history.png?raw=true "Title")
 
 #### Разберем по форматам чо к чему?
 
